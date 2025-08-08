@@ -1,4 +1,6 @@
-//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+// Marca personalizada para fácil adaptação/remover
+const assinatura = "Amigo Secreto do Cleiton";
+
 // Array para armazenar os nomes dos amigos
 let amigos = [];
 
@@ -41,5 +43,8 @@ function sortearAmigo() {
 
     document.getElementById("resultado").innerHTML = `
         <li>🎉 O amigo secreto é: <strong>${sorteado}</strong></li>
+        <li><em>— ${assinatura}</em></li>
     `;
+
+    console.log(`🔐 ${assinatura} — código personalizado`);
 }
